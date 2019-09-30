@@ -8,7 +8,7 @@ cd my-app
 yarn start
 ```
 
-1. Create an state object inside my-app/src/App.js with a dummy person's first name, last name, address, phone number, email address, and last login date.
+1. Create a state object inside my-app/src/App.js with a dummy person's first name, last name, address, phone number, email address, and last login date.
 
 2. Build a form with input fields that allow you to modify each of the attributes of the state object, adding separate onChange handlers for each input field.
 
@@ -16,9 +16,9 @@ yarn start
 
 4. Create a component named Input.js that has the following features:
 
-* render function that takes in the value and name from props and applies it to an input field.
-
 * onChange event handler that takes in an onChange from props and calls it with the name and the newest value in the event.
+
+* render function that takes in the value and name from props and applies it to an input field. It also applies the onChange function created above
 
 5. Replace all off the input fields added to App.js with the Input.js component you created.
 
